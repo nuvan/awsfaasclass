@@ -1,0 +1,33 @@
+.city {
+    background-size: 30rem 30rem;
+}
+
+.faasIrelandDublin {
+    background-image: url('/w3images/sddublin.png');
+    height: 26rem;
+}
+
+.faasFranceParis {
+    background-image: url('/w3images/sdparis.png');
+    height: 26rem;
+}
+
+.faasGermanyFrankfurt {
+    background-image: url('/w3images/sdfrankfurt.png');
+    height: 26rem;
+}
+
+.faasJapanTokyo {
+    background-image: url('/w3images/sdtokyo.png');
+    height: 26rem;
+}
+
+.faasUsaNorthVirginia {
+    background-image: url('/w3images/sdtokyo.png');
+    height: 26rem;
+}
+
+.faasIndiaMumbai {
+    background-image: url('/w3images/sdmumbai.png');
+    height: 26rem;
+}
