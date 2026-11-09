@@ -39,10 +39,11 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
   <div class="w3-hide-large" style="margin-top:83px"></div>
   
   <!-- Photo grid -->
-  <div class="w3-row" style="display: flex; align-items: center; justify-content: center; min-height: 100vh;">
+  <div class="w3-row clock-grid">
     <div class="w3-third">
-      <div class="faasIrelandDublin city">
-        <div class="clock">
+      <div class="faasIrelandDublin city" data-clock-state="loading">
+        <h2 class="city-name">Dublin</h2>
+        <div class="clock" aria-hidden="true">
           <div class="outer-clock-face">
             <div class="marking marking-one"></div>
             <div class="marking marking-two"></div>
@@ -55,9 +56,11 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
             </div>
           </div>
         </div>
+        <p class="clock-status" role="status" aria-label="Dublin clock">Checking…</p>
       </div>
-      <div class="faasFranceParis city">
-        <div class="clock">
+      <div class="faasFranceParis city" data-clock-state="loading">
+        <h2 class="city-name">Paris</h2>
+        <div class="clock" aria-hidden="true">
           <div class="outer-clock-face">
             <div class="marking marking-one"></div>
             <div class="marking marking-two"></div>
@@ -70,12 +73,14 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
             </div>
           </div>
         </div>
+        <p class="clock-status" role="status" aria-label="Paris clock">Checking…</p>
       </div>
     </div>
 
     <div class="w3-third">
-      <div class="faasGermanyFrankfurt city">
-        <div class="clock">
+      <div class="faasGermanyFrankfurt city" data-clock-state="loading">
+        <h2 class="city-name">Frankfurt</h2>
+        <div class="clock" aria-hidden="true">
           <div class="outer-clock-face">
             <div class="marking marking-one"></div>
             <div class="marking marking-two"></div>
@@ -88,9 +93,11 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
             </div>
           </div>
         </div>
+        <p class="clock-status" role="status" aria-label="Frankfurt clock">Checking…</p>
       </div>
-      <div class="faasUsaNorthVirginia city">
-        <div class="clock">
+      <div class="faasUsaNorthVirginia city" data-clock-state="loading">
+        <h2 class="city-name">Northern Virginia</h2>
+        <div class="clock" aria-hidden="true">
           <div class="outer-clock-face">
             <div class="marking marking-one"></div>
             <div class="marking marking-two"></div>
@@ -103,12 +110,14 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
             </div>
           </div>
         </div>
+        <p class="clock-status" role="status" aria-label="Northern Virginia clock">Checking…</p>
       </div>
     </div>
 
     <div class="w3-third">
-      <div class="faasJapanTokyo city">
-        <div class="clock">
+      <div class="faasJapanTokyo city" data-clock-state="loading">
+        <h2 class="city-name">Tokyo</h2>
+        <div class="clock" aria-hidden="true">
           <div class="outer-clock-face">
             <div class="marking marking-one"></div>
             <div class="marking marking-two"></div>
@@ -121,9 +130,11 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
             </div>
           </div>
         </div>
+        <p class="clock-status" role="status" aria-label="Tokyo clock">Checking…</p>
       </div>
-      <div class="faasIndiaMumbai city">
-        <div class="clock">
+      <div class="faasIndiaMumbai city" data-clock-state="loading">
+        <h2 class="city-name">Mumbai</h2>
+        <div class="clock" aria-hidden="true">
           <div class="outer-clock-face">
             <div class="marking marking-one"></div>
             <div class="marking marking-two"></div>
@@ -136,14 +147,10 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
             </div>
           </div>
         </div>
-      </div>
+        <p class="clock-status" role="status" aria-label="Mumbai clock">Checking…</p>
       </div>
     </div>
   </div>
-
-
-
-
 
 <!-- End page content -->
 </div>
